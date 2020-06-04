@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3856218514665187043}
   - component: {fileID: 3856218514672000419}
   m_Layer: 0
-  m_Name: delivery_van
+  m_Name: van
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -171,7 +171,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 5e43396ab1094844cb3c39af181cc7c8, type: 3}
 --- !u!1 &3856218514657793317
@@ -263,7 +263,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300004, guid: 5e43396ab1094844cb3c39af181cc7c8, type: 3}
 --- !u!1 &3856218514657793321
@@ -355,7 +355,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300006, guid: 5e43396ab1094844cb3c39af181cc7c8, type: 3}
 --- !u!1 &3856218514657793323
@@ -447,6 +447,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300008, guid: 5e43396ab1094844cb3c39af181cc7c8, type: 3}
