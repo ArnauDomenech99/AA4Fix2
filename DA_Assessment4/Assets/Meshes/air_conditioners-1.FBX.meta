@@ -1,67 +1,178 @@
 fileFormatVersion: 2
 guid: 6e4674f6a6407e845854e8caf2225d0c
-timeCreated: 1544057519
-licenseType: Free
 ModelImporter:
-  serializedVersion: 21
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: aircon1
-    100004: aircon2
-    100006: dummy1
-    100008: dummy2
-    100010: dummy3
-    100012: dummy4
-    100014: dummy5
-    100016: fan1
-    100018: fan2
-    100020: fan3
-    100022: fan4
-    100024: Plane001
-    100026: root
-    400000: //RootNode
-    400002: aircon1
-    400004: aircon2
-    400006: dummy1
-    400008: dummy2
-    400010: dummy3
-    400012: dummy4
-    400014: dummy5
-    400016: fan1
-    400018: fan2
-    400020: fan3
-    400022: fan4
-    400024: Plane001
-    400026: root
-    2300000: aircon1
-    2300002: aircon2
-    2300004: fan1
-    2300006: fan2
-    2300008: fan3
-    2300010: fan4
-    2300012: //RootNode
-    3300000: aircon1
-    3300002: aircon2
-    3300004: fan1
-    3300006: fan2
-    3300008: fan3
-    3300010: fan4
-    3300012: //RootNode
-    4300000: aircon2
-    4300002: fan3
-    4300004: fan4
-    4300006: aircon1
-    4300008: Plane001
-    4300010: fan1
-    4300012: fan2
-    4300014: aircon
-    7400000: Take 001
-    9500000: //RootNode
-    13700000: Plane001
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: aircon1
+  - first:
+      1: 100004
+    second: aircon2
+  - first:
+      1: 100006
+    second: dummy1
+  - first:
+      1: 100008
+    second: dummy2
+  - first:
+      1: 100010
+    second: dummy3
+  - first:
+      1: 100012
+    second: dummy4
+  - first:
+      1: 100014
+    second: dummy5
+  - first:
+      1: 100016
+    second: fan1
+  - first:
+      1: 100018
+    second: fan2
+  - first:
+      1: 100020
+    second: fan3
+  - first:
+      1: 100022
+    second: fan4
+  - first:
+      1: 100024
+    second: Plane001
+  - first:
+      1: 100026
+    second: root
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: aircon1
+  - first:
+      4: 400004
+    second: aircon2
+  - first:
+      4: 400006
+    second: dummy1
+  - first:
+      4: 400008
+    second: dummy2
+  - first:
+      4: 400010
+    second: dummy3
+  - first:
+      4: 400012
+    second: dummy4
+  - first:
+      4: 400014
+    second: dummy5
+  - first:
+      4: 400016
+    second: fan1
+  - first:
+      4: 400018
+    second: fan2
+  - first:
+      4: 400020
+    second: fan3
+  - first:
+      4: 400022
+    second: fan4
+  - first:
+      4: 400024
+    second: Plane001
+  - first:
+      4: 400026
+    second: root
+  - first:
+      23: 2300000
+    second: aircon1
+  - first:
+      23: 2300002
+    second: aircon2
+  - first:
+      23: 2300004
+    second: fan1
+  - first:
+      23: 2300006
+    second: fan2
+  - first:
+      23: 2300008
+    second: fan3
+  - first:
+      23: 2300010
+    second: fan4
+  - first:
+      23: 2300012
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: aircon1
+  - first:
+      33: 3300002
+    second: aircon2
+  - first:
+      33: 3300004
+    second: fan1
+  - first:
+      33: 3300006
+    second: fan2
+  - first:
+      33: 3300008
+    second: fan3
+  - first:
+      33: 3300010
+    second: fan4
+  - first:
+      33: 3300012
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: aircon2
+  - first:
+      43: 4300002
+    second: fan3
+  - first:
+      43: 4300004
+    second: fan4
+  - first:
+      43: 4300006
+    second: aircon1
+  - first:
+      43: 4300008
+    second: Plane001
+  - first:
+      43: 4300010
+    second: fan1
+  - first:
+      43: 4300012
+    second: fan2
+  - first:
+      43: 4300014
+    second: aircon
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Plane001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: bf4d7eb09fd2283409de19a1f3df9751, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -74,6 +185,8 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -84,20 +197,28 @@ ModelImporter:
     clipAnimations: []
     isReadable: 1
   meshes:
-    lODScreenPercentages: []
+    lODScreenPercentages:
+    - 0.25
+    - 0.01
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -108,10 +229,14 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -121,8 +246,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
